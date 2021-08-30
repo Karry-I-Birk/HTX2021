@@ -25,6 +25,7 @@ uge2/*
 uge3/*
 uge4/*
 uge5/*
+rester/*
 
 *.aux
 *.log
@@ -34,3 +35,4 @@ uge5/*
 *.tex
 *.out
 *.toc
+programmering.pdf
