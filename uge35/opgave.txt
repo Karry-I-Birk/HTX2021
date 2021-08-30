@@ -23,4 +23,5 @@ fill() udfylder figuren med en farve.
 
 Husk at koordinaterne 0,0 er øverste venstrehjørne (normalt vil det være nederste venstre) og er efter princippet: "hen ad vejen, ned til stegen". X,Y. 
 
-
+Opg2
+lav et landskab med et hus, blomster og et træ
