@@ -5,13 +5,14 @@ Dette er en opgave i sekventiel programmering. Du skal altså tegne i den rigtig
 
 Start med at finde ud af, i hvilken rækkefølge de forskellige figurer skal tegnes.
 
-Du kan bruge disse syv instruktioner for at kunne lave tegningen.
+Du kan bruge disse otte instruktioner for at kunne lave tegningen.
 
 size();
 line();
 strokeWeight();
 rect();
 circle();
+square();
 arc();
 fill();
 
