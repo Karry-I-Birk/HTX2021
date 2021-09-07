@@ -24,6 +24,7 @@ void draw() {
 
 
 void drawLandscape() {
+  // jeg tegner landskabet som to store cirkler
   fill(0, 225, 0);
   stroke(0, 225, 0);
   circle(100, 900, 800);
@@ -31,6 +32,7 @@ void drawLandscape() {
 }
 
 void drawClouds(int x, int y) {
+  // jeg tegner skyerne som 6 cirkler
   fill(255);
   stroke(255);
   circle(x, y, 75);
