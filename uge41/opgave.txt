@@ -36,7 +36,7 @@ Cammelback notation
 Denne opgave handler om at forstå de forskellige datatyper.
 
 Opgave 4:
-	a) Undersøg for hver primitiv datatype, hvor meget plads (bytes) der allokeres i hukommelsen når man deklarerer en variabel af datatypen. (https://data-flair.training/blogs/java-data-types/). Noter alle dine resultater
+	a) Undersøg for hver primitiv datatype, hvor meget plads (bytes) der allokeres i hukommelsen når man deklarerer en variabel af datatypen. (find svaret her https://data-flair.training/blogs/java-data-types/). Noter alle dine resultater
 
 	b) Skriv et program som ved hjælp af funktioner, beviser hvilke minimums- og maksimumsværdier for de primitive datatype kan indeholde.Find evt. inspiration i programmet testDatatyper, som du finder på github. Noter alle dine resultater
 
