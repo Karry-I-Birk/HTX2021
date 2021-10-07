@@ -1,11 +1,11 @@
-int r =0;
-void setup() {
-  size(700, 600);
+int r =0; //du deklarerer at r er et integer, og du initierer det til at være nul.
+void setup() { //en funktion. Du deklarerer typen af det der kommer ud af funktionen til at være 'void', altsåer den null, den er ingenting. Udover det er funktionen til at gøre canvas klar til tegningen.
+  size(700, 600); //sætter størrelsen på tegningen/canvas til at være 700,600 pixels.
 }
 
-void draw() {
-  background(0, 0, 225);
-  drawLandscape(); // tegner de to bakker
+void draw() { //Her laver du en anden funktion, igen er typen af 'f(x)' null. Den kommer lige efter setup(), som den skal, og den sådan at hvad end der star inde i funktionen, bliver initieret igen og igen.
+  background(0, 0, 225); //du sætter baggrunden til at være en bestemt farve. Man kan hvilken farve inde på 
+  drawLandscape(); //sætter programmet til at tegne en tegning/funktion, som du har givet en masse instruktioner.
 
   translate(0+r, 0); // bevæger baggrunden fremad
   r++;
@@ -13,17 +13,17 @@ void draw() {
     r=0;
   }
 
-  for (int i =0; i < width+200; i++) { // for at undgå at skyerne bare forsvinder, er jeg nød til at forlænge width
+  for (int i =0; i < width+200; i++) { // for at undgå at skyerne bare forsvinder, er jeg nød til at forlænge bredden
     if (i % 200==0) {    // hver gang jeg kan dividere i med 200 uden af det giver en rest skal den tegne nye skyer
-      drawClouds(i-200, 0);
-      drawClouds(i-150, 150);
+      drawClouds(i-200, 0); //tegner skyerne
+      drawClouds(i-150, 150); //tegner skyerne i en anden placering.
     }
   }
 }
 
 
 
-void drawLandscape() {
+void drawLandscape() { //funktionen der gør, at du kan skrive 'drawLandscape();' længere oppe, sådan at det kommer ud på canvas.
   // jeg tegner landskabet som to store cirkler
   fill(0, 225, 0);
   stroke(0, 225, 0);
